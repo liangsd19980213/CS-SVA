@@ -21,7 +21,51 @@ To set up the required dependencies for this project, install the necessary pack
 
 ```bash
 pip install -r requirements.txt
+```
 
 
-## 
+## Attention weights obtaining 
+To analyze the attention distribution of the model, run the `analyse_attn.py` script:  
+```bash
+python analyse_attn.py
+```
+
+
+## Data preprocessing
+To prepare the dataset for training and evaluation, follow these steps:  
+### 1. Split the dataset 
+First, execute the `split_dataset.py` script to divide the raw dataset into training, validation, and test sets:  
+```bash
+python split_dataset.py
+```
+### 2. Process the data
+After splitting the dataset, run the `data_processing.py` script to apply necessary preprocessing steps:
+```bash
+python data_processing.py
+```
+
+
+## Experimental results reproducing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
