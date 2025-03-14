@@ -46,7 +46,7 @@ python data_processing.py
 ## Experimental results reproducing
 To reproduce the experimental results for **RQ1-RQ4**, follow the steps below. Each step corresponds to the reproduction of a specific research question's results.  
 
-**RQ1: How does our proposed CS-SVA method perform compared to the state-of-the-art SVA baseline methods and models?**  
+**RQ1: ow does our proposed approach CS-SVA perform compared to the state-of-the-art SVA baselines and PLMs?**  
 To evaluate the performance of CS-SVA compared to state-of-the-art SVA baselines, follow these steps:  
 
 1. Navigate to the `baseline/function_level_Le/` directory:  
@@ -63,7 +63,7 @@ To evaluate the performance of CS-SVA compared to state-of-the-art SVA baselines
    cd baseline/model
    python run_model.py
    ```
-**RQ2: How different pruning granularites impact the performance of CS-SVA?**  
+**RQ2: ow does varying pruning granularity impact the performance of CS-SVA?**  
 To analyze the impact of different pruning granularities on CS-SVA's performance, we conduct experiments using three pruning strategies:  
 - **slim** (CS-SVA’s original pruning method)  
 - **token** (token-level pruning)  
@@ -129,7 +129,7 @@ We experiment with multiple PLMs, such as:
 - **codet5** (CodeT5)
 - **codebert** (CodeBERT)
 
-**RQ4: How different simplification ratios influence the performance of CS-SVA?**
+**RQ4: How different code simplification strategies and simplification ratios influence the performance of CS-SVA?**
 To evaluate the impact of different simplification ratios on CS-SVA’s performance, we modify the `prune_strategy` parameter. Specifically, we experiment with:  
 - **random** (Random pruning of code segments)  
 - **frequency** (Frequency-based pruning strategy)  
